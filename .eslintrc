@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb/base",
+  "rules": {
+    // don't require trailing commas. Let's make JSON great again.
+    "comma-dangle": 0,
+    // match indents to WebStorm defaults
+    "indent": [2, 4, {"SwitchCase": 1}],
+    // this causes issues with templates for some reason.
+    "no-unused-vars": 0,
+    // some minor fixes for if we want ES5 compatibility
+    "no-var": 0,
+    "prefer-rest-params": 0,
+    "prefer-template": 0,
+    // messes with callbacks
+    "func-names": 0,
+    // Purely stylistic in all honesty
+    "radix": 0,
+    "vars-on-top": 0,
+    "no-param-reassign": 0,
+    "keyword-spacing": 0,
+    "one-var": 0,
+    "space-before-function-paren": 0
+  }
+}
