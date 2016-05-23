@@ -6,7 +6,7 @@ Whilst we use ESLint for automatic hinting inside WebStorm, our IDE of choice, i
 
 1. Require the base ESLint library (`npm install --save eslint`)
 2. Install everything that Airbnb's [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) requires (`npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint`) 
-3. Create a new file called .eslintrc in the base of your project using your favourite text editor (not getting into a holy war here): `vi .eslintrc`
+3. Create a new file called .eslintrc in the base of your project using your favourite text editor (not getting into a holy war here): (`vi .eslintrc`)
 4. Copy & paste the contents of our `.eslintrc` into _your_ `.eslintrc.`, and watch the magic unfold.
 
 
